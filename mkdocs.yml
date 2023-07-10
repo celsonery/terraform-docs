@@ -1,0 +1,21 @@
+site_name: Terraform
+# site_url: https://github.com/celsonery/terraform-docs
+theme: 
+  name: readthedocs
+  highlightjs: true
+  hljs_languages:
+    - yaml
+    - rust
+  locale: pt_BR
+nav:
+  - Terraform: 
+    - Introdução: 00-intro.md
+    - Intalação: 01-install.md
+    - Dependencias: 02-depends.md
+    - Variáveis: 03-variables.md
+    - Scripts: 04-scripts.md
+    - Outputs: 05-output.md
+    - Reorganização dos arquivos: 06-reorder.md
+  - Terraform: terraform.md
+  - AWS: aws.md
+  - GCP: gcp.md
