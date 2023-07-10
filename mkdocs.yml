@@ -1,21 +1,20 @@
 site_name: Terraform
-# site_url: https://github.com/celsonery/terraform-docs
+site_url: https://github.com/celsonery/terraform-docs
 theme: 
   name: readthedocs
   highlightjs: true
-  hljs_languages:
-    - yaml
-    - rust
   locale: pt_BR
 nav:
   - Terraform: 
-    - Introdução: 00-intro.md
-    - Intalação: 01-install.md
-    - Dependencias: 02-depends.md
-    - Variáveis: 03-variables.md
-    - Scripts: 04-scripts.md
-    - Outputs: 05-output.md
-    - Reorganização dos arquivos: 06-reorder.md
-  - Terraform: terraform.md
-  - AWS: aws.md
-  - GCP: gcp.md
+    - Intalação: terraform/01-instalacao.md
+  - AWS:
+    - Criar conta na AWS: aws/01-criar-conta-aws.md
+    - Conta IAM Terraform: aws/02-criar-conta-iam.md
+    - Grupo IAM e permissões: aws/03-criar-grupo-permissoes.md
+    - Dependências: terraform/02-dependencias.md
+    - Variáveis: terraform/03-variaveis.md
+    - Scripts: terraform/04-scripts.md
+    - Outputs: terraform/05-outputs.md
+    - Reorganização dos arquivos: terraform/06-reorganizar.md
+  - GCP:
+    - Criar conta na GCP:  gcp/01-criar-conta-gcp.md

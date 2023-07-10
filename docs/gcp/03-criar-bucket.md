@@ -1,0 +1,2 @@
+# Criar bucket GCP
+
